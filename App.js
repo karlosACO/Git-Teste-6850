@@ -11,7 +11,7 @@ export default function App() {
 
 
 
-  
+
 
   function calculator(){
     const splitNumbers = currentNumber.split(' ')
@@ -69,7 +69,7 @@ export default function App() {
       <View style={styles.results}>
         <Text style={styles.historyText}>{lastNumber}</Text>
         <Text style={styles.resultText}>{currentNumber}</Text>
-      <View>
+      </View>
 
       {/* Area onde os botões são exibidos*/}
       <View style={styles.buttons}>
